@@ -1,4 +1,8 @@
 .places{
   max-width: 984px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+  gap: 80px;
 }
