@@ -1,0 +1,7 @@
+.cover__background{
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  transition: opacity .4s ease;
+  max-width: 1184px;
+  width: 100%;
+}
