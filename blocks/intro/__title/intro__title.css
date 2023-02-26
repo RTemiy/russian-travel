@@ -6,3 +6,15 @@
   font-size: 54px;
   font-weight: 900;
 }
+
+@media (max-width: 1024px) {
+  .intro__title{
+    margin: 88px auto 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__title{
+    margin: 64px auto 0 auto;
+  }
+}
