@@ -1,4 +1,6 @@
 .cover{
+  color: white;
+  text-decoration: none;
   max-width: 1184px;
   margin: 92px auto;
   display: grid;
