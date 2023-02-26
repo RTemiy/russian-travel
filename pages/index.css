@@ -11,7 +11,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/lang-block/header__lang-block.css);
+@import url(../blocks/header/__lang-block/header__lang-block.css);
 
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -76,3 +76,14 @@
 
 
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/footer/__links/footer__links.css);
+
+@import url(../blocks/footer/__link-container/footer__link-container.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+@import url(../blocks/link-hover/link-hover.css);

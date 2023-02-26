@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+
+
+  .footer__link-container {
+    margin-bottom: 32px;
+  }
+
+  .footer__link-container:last-of-type {
+    margin-bottom: 0;
+  }
+
+}

@@ -27,7 +27,7 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image"src="images/lead__image.jpg">
+      <img alt="Карта пути на железной дороге. На фоне спящая в вагоне девушка." class="lead__image" src="images/lead__image.jpg">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
@@ -43,7 +43,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
+    <div class="photo-grid">
 
       <img alt="Вид из поезда" class="photo-grid_item" src="images/__item01.jpg">
       <img alt="Вид на горы с высоты" class="photo-grid_item" src="images/__item02.jpg">
@@ -53,12 +53,12 @@
       <img alt="Вид на море и горы" class="photo-grid_item" src="images/__item06.jpg">
       <img alt="Вид на заснеженные пики гор" class="photo-grid_item" src="images/__item07.jpg">
       <img alt="Знак 'Пешеходный переход'" class="photo-grid_item" src="images/__item08.jpg">
-      <img alt="Вид сверху на горы"class="photo-grid_item" src="images/__item09.jpg">
+      <img alt="Вид сверху на горы" class="photo-grid_item" src="images/__item09.jpg">
       <img alt="Вид снизу на гору" class="photo-grid_item" src="images/__item10.jpg">
       <img alt="Расщелина в горах" class="photo-grid_item" src="images/__item11.jpg">
       <img alt="Туманные горы" class="photo-grid_item" src="images/__item12.jpg">
 
-    </section>
+    </div>
 
     <section class="places">
 
@@ -66,9 +66,9 @@
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="http://park-kosa.ru" target="_blank" class="place__url-link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" target="_blank" class="link-hover place__url-link">park-kosa.ru</a>
         </div>
-        <img alt="Куршская коса"class="place__image" src="images/place01.jpg">
+        <img alt="Куршская коса" class="place__image" src="images/place01.jpg">
         <div class="place__paragraph">
           <p class="place__paragraph-text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
           <p class="place__paragraph-text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
@@ -79,7 +79,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__url-link">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="link-hover place__url-link">National Geographic</a>
         </div>
         <img alt="Скалистая местность зимой" class="place__image" src="images/place02.jpg">
         <div class="place__paragraph">
@@ -92,7 +92,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="place__url-link">YouTube</a>
+          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="link-hover place__url-link">YouTube</a>
         </div>
         <img alt="Лесной пейзаж" class="place__image" src="images/place03.jpg">
         <div class="place__paragraph">
@@ -105,7 +105,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://vk.com/baikalmile" target="_blank" class="place__url-link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" target="_blank" class="link-hover place__url-link">https://vk.com/baikalmile</a>
         </div>
         <img alt="Лёд байкала под микроскопом" class="place__image" src="images/place04.jpg">
         <div class="place__paragraph">
@@ -118,7 +118,7 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="http://vodlozero.ru" target="_blank" class="place__url-link">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" target="_blank" class="link-hover place__url-link">http://vodlozero.ru/</a>
         </div>
         <img alt="Вид на лесную равнину с протекающей вдоль рекой" class="place__image" src="images/place05.jpg">
         <div class="place__paragraph">
@@ -131,15 +131,30 @@
     <section class="cover">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      <img class="cover__overlay" src="images/overlay.png">
-      <img class="cover__background" src="images/road.jpg">
+      <img alt="Эффект затемнения на картинку" class="cover__overlay" src="images/overlay.png">
+      <img alt="Железная дорога" class="cover__background" src="images/road.jpg">
     </section>
-
-
   </main>
 
   <footer class="footer">
-
+    <ul class="footer__links">
+      <li class="footer__link-container">
+        <a class="footer__link link-hover" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      </li>
+      <li class="footer__link-container">
+        <a class="footer__link link-hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      </li>
+      <li class="footer__link-container">
+        <a class="footer__link link-hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      </li>
+      <li class="footer__link-container">
+        <a class="footer__link link-hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      </li>
+      <li class="footer__link-container">
+        <a class="footer__link link-hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      </li>
+    </ul>
+    <p class="footer__copyright">© 2023. Артемий Голубятников</p>
   </footer>
 </div>
 </body>

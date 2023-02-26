@@ -11,3 +11,11 @@
   max-width: 360px;
   align-self: start;
 }
+
+@media (max-width: 768px) {
+  .cover__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}

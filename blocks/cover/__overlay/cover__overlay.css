@@ -2,4 +2,12 @@
   grid-column: 1/-1;
   grid-row: 1/-1;
   z-index: 1;
+  transition: opacity .4s ease;
+  max-width: 1184px;
+}
+
+@media (max-width: 1280px) {
+  .cover__overlay{
+    max-width: 100%;
+  }
 }
