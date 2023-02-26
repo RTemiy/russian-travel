@@ -1,4 +1,4 @@
-# [Проект: Путешествие по России](rtemiy.github.io/russian-travel/)
+# [Проект: Путешествие по России](https://rtemiy.github.io/russian-travel/)
 
 ## Проект выполнен в рамках учёбы в Яндекс Практикуме
 
