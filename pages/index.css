@@ -33,7 +33,7 @@
 
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 
-@import url(../blocks/intro/__list-item/__light/intro__list-item_light.css);
+@import url(../blocks/intro/__list-item/_light/intro__list-item_light.css);
 
 @import url(../blocks/intro/__text/intro__text.css);
 
