@@ -17,6 +17,6 @@
 
 @media (max-width: 768px) {
   .lead{
-    max-width: 100%px;
+    max-width: 100%;
   }
 }
