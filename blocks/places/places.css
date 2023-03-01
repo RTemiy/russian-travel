@@ -17,11 +17,13 @@
 @media (max-width: 1023px) {
   .places {
     width: calc(100% - 2 * 24px);
+    gap: 73px;
   }
 }
 
 @media (max-width: 767px) {
   .places {
     width: 100%;
+    gap: 64px;
   }
 }
