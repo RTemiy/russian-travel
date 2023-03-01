@@ -16,14 +16,6 @@
   background-position: center;
 }
 
-.cover:hover>{
-  opacity: 0.3;
-}
-
-.cover:hover>{
-  opacity: 0.3;
-}
-
 @media (max-width: 1279px) {
   .cover{
     width: 100%;
