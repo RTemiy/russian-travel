@@ -19,14 +19,12 @@
 @media (max-width: 1279px) {
   .cover{
     min-height: 640px;
-    min-width: 1024px;
   }
 }
 
 @media (max-width: 1023px) {
   .cover{
     min-height: 480px;
-    min-width: 768px;
     margin: 90px auto 88px auto;
   }
 }
@@ -34,7 +32,6 @@
 @media (max-width: 767px) {
   .cover{
     min-height: 200px;
-    min-width: 320px;
     margin: 66px auto 64px auto;
     gap: 16px;
   }
@@ -49,7 +46,7 @@
   bottom: 0;
   left: 0;
   background-color: #2A2C2F;
-  opacity: 0;
+  opacity: 0.3;
   transition: opacity .2s ease;
 }
 
